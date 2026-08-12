@@ -3,6 +3,7 @@
 
 # 첫 셋팅
 from collections import deque
+
 n,m = map(int,input().split())
 
 graph = []

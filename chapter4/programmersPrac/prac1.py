@@ -4,6 +4,7 @@ def solution(sizes):
     # 모든 가로세로 sort로 정렬하기
     for s in sizes:
         s.sort()
+    print(sizes)
 
     # 오름차순으로 정렬됐으니까 1번 인덱스 중에서 제일 큰 애 찾기
     width = 0
